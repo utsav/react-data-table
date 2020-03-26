@@ -1,0 +1,18 @@
+.root {
+  margin: 16px auto 0;
+  max-width: 1200px;
+  padding-left: 16px;
+  padding-right: 16px;
+  @media only screen and (min-width: 1280px) {
+    max-width: 1376px;
+  }
+  > div {
+    width: 100%;
+    @media only screen and (min-width: 481px) {
+      width: 75%;
+    }
+    @media only screen and (min-width: 801px) {
+      width: 100%;
+    }
+  }
+}
